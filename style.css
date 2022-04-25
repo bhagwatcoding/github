@@ -7,3 +7,21 @@
 body {
     text-align: center;
 }
+
+nav {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    border-bottom: 1px solid;
+    box-shadow: 0 2px 2px 2px #cfcfcf;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
